@@ -34,5 +34,12 @@ pnpm run dev
 ```
 Open your browser at http://localhost:3000
 
+---
+
+## 🧪 Backend Integration
+The app connects to the backend:
+👉 [be-memo-app](https://github.com/thyms-c/be-memo-app)
+
+This handles memo data storage (MongoDB) and uses Node-RED for authentication logic.
 
 
