@@ -86,9 +86,10 @@ export default function Home() {
       const mutationPromise = mutateAsync(data);
 
       addToast({
-        title: "Saving...",
+        title: "Saving Memo",
         description: "Your memo is being saved.",
         promise: mutationPromise,
+        color: "success",
       });
 
       const response = await mutationPromise;
